@@ -26,7 +26,7 @@ const Widget = props => {
             {props.data.author}{' '}
           </Text>
         </View>
-      </View>
+      </View> 
     </View>
   );
 };
