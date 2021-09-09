@@ -35,7 +35,7 @@ const renderItem = ({item}) => <Widget data={item} />;
 
 const WidgetDiscountN = props => {
   return (
-    <View>
+    <View style={{paddingLeft:5,paddingRight:10,}}>
       <FlatList
         nestedScrollEnabled
         data={props.data}
