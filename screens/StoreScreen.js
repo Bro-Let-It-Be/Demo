@@ -12,7 +12,7 @@ const Store = [
       require('../android/app/src/main/assets/images/hp2.jpeg'),
       require('../android/app/src/main/assets/images/hp3.jpeg'),
       require('../android/app/src/main/assets/images/hp1.jpeg'),
-    ],
+    ], 
   },
   {
     id: '58694a0f-3da1-471f-bd96-145571e29d724dd',
@@ -133,7 +133,7 @@ const Store = [
     type: 'widgetDiscount',
     books:[
       { 
-        bookId: 'jsjsjs1',
+        id: 'jsjsjs1',
         image: 'banner1.jpeg',
         title: 'Tide of Season',
         author: 'Aaron James',
@@ -141,7 +141,7 @@ const Store = [
         discount: 50,
       },
       {
-        bookId: 'jsjsks2',
+        id: 'jsjsks2',
         image: 'd2.jpeg',
         title: 'Rebel Dragon',
         author: 'Steve Turnbull',
@@ -149,7 +149,7 @@ const Store = [
         discount: 50,
       },
       {
-        bookId: 'jsjkjsks3',
+        id: 'jsjkjsks3',
         image: 'd3.jpeg',
         title: 'The Dream Leaper',
         author: 'Cory Barclay',
@@ -157,7 +157,7 @@ const Store = [
         discount: 50,
       },
       {
-        bookId: 'jsjkpooks4',
+        id: 'jsjkpooks4',
         image: 'd4.jpeg',
         title: 'Shroud of Eternity',
         author: 'Terry Goodkind',
