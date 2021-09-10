@@ -17,7 +17,7 @@ const BookItem = props => {
         />
       </View>
       <View style={styles.bookinfo}>
-        <Text style={styles.title}>{props.data.title}</Text>
+        <Text style={styles.title} numberOfLines={1} ellipsizeMode='tail'>{props.data.title}</Text>
         <Caption style={styles.author}>Mr. Raj Singh</Caption>
         <Caption style={styles.caption}>
           Caption of the book and some book related info. Here we will get some
@@ -48,6 +48,7 @@ const styles = StyleSheet.create({
   bookinfo: {
     height: 100,
     flexShrink: 1,
+    paddingRight:5,
   },
   image: {
     width: 100,
