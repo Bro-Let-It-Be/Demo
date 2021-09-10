@@ -42,7 +42,7 @@ const Store = [
       {
         image: 'banner1.jpeg',
         title: 'The Autum Palace',
-        subTitle: 'Till Wednesday',//add substitlle, reduce font weight and size, capable to limit length(word wrap)
+        subTitle: 'Till Wednesday',
         author: 'Ebony McKenna',
         price: 1000,
         discount: 50,

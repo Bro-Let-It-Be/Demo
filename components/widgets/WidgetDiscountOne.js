@@ -15,6 +15,9 @@ const WidgetImageBar = props => {
           <Text style={styles.discountText}>
             Upto {props.data.discount}% OFF
           </Text>
+          <Text style={styles.discountText1}>
+            on all boooks
+          </Text>
         </View>
       </ImageBackground>
       <View style={{marginLeft: 10}}>
@@ -61,17 +64,26 @@ const styles = StyleSheet.create({
     borderRadius: 25,
   },
   innerBox2: {
-    marginTop: 25,
+    position: 'relative',
+    top: '28%',
+    paddingBottom:5,
+    justifyContent: 'center', 
+    alignItems: 'center'
   },
   innerBox3: {
     flexDirection: 'row',
   },
   discountText: {
-    marginTop: 15,
     fontSize: 18,
     fontWeight: '800',
     textAlign: 'center',
     textAlignVertical: 'bottom',
+  },
+  discountText1: {
+    color:'green',
+    marginTop:-5,
+    fontSize:12,
+    fontWeight:'500',
   },
 });
 

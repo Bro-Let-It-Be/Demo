@@ -18,6 +18,7 @@ const BookItem = props => {
       </View>
       <View style={styles.bookinfo}>
         <Text style={styles.title} numberOfLines={1} ellipsizeMode='tail'>{props.data.title}</Text>
+        
         <Caption style={styles.author}>Mr. Raj Singh</Caption>
         <Caption style={styles.caption}>
           Caption of the book and some book related info. Here we will get some

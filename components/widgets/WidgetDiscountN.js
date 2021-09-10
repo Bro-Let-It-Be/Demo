@@ -12,17 +12,17 @@ const Widget = props => {
         style={styles.image}>
         <View style={styles.innerBox1}></View>
         <View style={styles.innerBox2}>
-          <Text style={styles.discountText}>
-            Upto {props.data.discount}% OFF
+          <Text style={styles.discountText} numberOfLines={1} ellipsizeMode='tail'>
+            Upto {props.data.discount}% OFF on exlusive items
           </Text>
         </View>
       </ImageBackground>
       <View style={{marginLeft: 10}}>
-        <Text style={{fontSize: 14, fontWeight: '400'}}>
+        <Text style={{fontSize: 12, fontWeight: '400'}}>
           {props.data.title}
         </Text>
         <View style={styles.innerBox3}>
-          <Text style={{fontSize: 12, fontWeight: '300'}}>
+          <Text style={{fontSize: 10, fontWeight: '300'}}>
             {props.data.author}{' '}
           </Text>
         </View>
@@ -70,18 +70,21 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
   innerBox2: {
-    marginTop: 10,
+    flex:1,
+    position: 'relative',
+    top: '15%',
+    justifyContent: 'center', 
+    alignItems: 'center'
   },
   innerBox3: {
     flexDirection: 'row',
   },
   discountText: {
     color: '#fff',
-    marginTop: 15,
-    fontSize: 18,
-    fontWeight: '800',
+    fontSize: 12,
+    fontWeight: '600',
     textAlign: 'center',
-    textAlignVertical: 'bottom',
+    textAlignVertical: 'center',
   },
 });
 

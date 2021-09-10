@@ -6,7 +6,7 @@ import List from '../components/List';
 const Store = [
   {
     id: 'bd7acbea-c1b1-46c2-aed5-3ad53abb28ba',
-    title: 'Design Formula',
+    title: 'Design Formula jdnfjiwr iniwe weifnew fewinwe weinwe iwe weijj weinwei weiwe ewindew dewidnewdeidn',
     type: 'lib',
     uri: 'book1.jpeg',
     completed: '45 %',
