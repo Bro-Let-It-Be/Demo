@@ -7,7 +7,7 @@ const WidgetYoutubeVideo = props => {
     <View style={styles.item}>
       <YoutubePlayer
         height={230}
-        width={380}
+        width={'100%'}
         play={'false'}
         videoId={props.data.videoId}
       />
