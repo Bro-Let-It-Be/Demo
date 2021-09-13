@@ -60,7 +60,7 @@ once its done write command <br>
 <br><br>
 <h4>Possible errors:-</h4>
 1. Multiple java versions<br>
-use command "cd /Library/Java/JavaVirtualMachines" and then do "ls to check.<br><br>
+use command "cd /Library/Java/JavaVirtualMachines" and then do "ls" to check.<br><br>
 2. Not able to find emulator even when emulator is running or getting no local.properties file<br>
 create a file nameed "local.properties" under project->android folder<br>
 add the below line in that file by adding your username<br>
